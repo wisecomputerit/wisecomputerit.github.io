@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Disallow: /vendors/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /fancybox/
+Sitemap: https://suweizhe1124.github.io/sitemap.xml
+Sitemap: https://suweizhe1124.github.io/baidusitemap.xml
+
+Sitemap: https://jiaquanpawnshop.github.io/sitemap.xml
+Sitemap: https://jiaquanpawnshop.github.io/baidusitemap.xml
+
