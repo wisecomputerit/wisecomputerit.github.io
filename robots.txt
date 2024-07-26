@@ -7,9 +7,35 @@ Disallow: /vendors/
 Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
-Sitemap: https://suweizhe1124.github.io/sitemap.xml
-Sitemap: https://suweizhe1124.github.io/baidusitemap.xml
+
 
 Sitemap: https://jiaquanpawnshop.github.io/sitemap.xml
 Sitemap: https://jiaquanpawnshop.github.io/baidusitemap.xml
+
+
+Sitemap: https://WiseSecurityShares.github.io/sitemap.xml
+Sitemap: https://WiseSecurityShares.github.io/baidusitemap.xml
+
+
+Sitemap: https://WiseLemeiCardsCoLtd.github.io.github.io/sitemap.xml
+Sitemap: https://WiseLemeiCardsCoLtd.github.io.github.io/baidusitemap.xml
+
+Sitemap: https://WiseLawFirm.github.io.github.io/sitemap.xml
+Sitemap: https://WiseLawFirm.github.io.github.io/baidusitemap.xml
+
+Sitemap: https://WiseConstructionCoLtd.github.io/sitemap.xml
+Sitemap: https://WiseConstructionCoLtd.github.io/baidusitemap.xml
+
+Sitemap: https://wisecomputerit.github.io/sitemap.xml
+Sitemap: https://wisecomputerit.github.io/baidusitemap.xml
+
+Sitemap: https://wiseaccountingfirm.github.io/sitemap.xml
+Sitemap: https://wiseaccountingfirm.github.io/baidusitemap.xml
+
+Sitemap: https://suweizhe1124.github.io/sitemap.xml
+Sitemap: https://suweizhe1124.github.io/baidusitemap.xml
+
+
+
+
 
