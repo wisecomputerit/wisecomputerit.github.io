@@ -17,11 +17,11 @@ Sitemap: https://WiseSecurityShares.github.io/sitemap.xml
 Sitemap: https://WiseSecurityShares.github.io/baidusitemap.xml
 
 
-Sitemap: https://WiseLemeiCardsCoLtd.github.io.github.io/sitemap.xml
-Sitemap: https://WiseLemeiCardsCoLtd.github.io.github.io/baidusitemap.xml
+Sitemap: https://WiseLemeiCardsCoLtd.github.io/sitemap.xml
+Sitemap: https://WiseLemeiCardsCoLtd.github.io/baidusitemap.xml
 
-Sitemap: https://WiseLawFirm.github.io.github.io/sitemap.xml
-Sitemap: https://WiseLawFirm.github.io.github.io/baidusitemap.xml
+Sitemap: https://wiselawfirm.github.io/sitemap.xml
+Sitemap: https://wiselawfirm.github.io/baidusitemap.xml
 
 Sitemap: https://WiseConstructionCoLtd.github.io/sitemap.xml
 Sitemap: https://WiseConstructionCoLtd.github.io/baidusitemap.xml
