@@ -2,6 +2,7 @@
 <html>
 
 <head>
+	<link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/wisecomputerit/wisecomputerit.github.io/refs/heads/main/001.ico">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="theme-color" content="#33474d">
@@ -10,11 +11,54 @@
 	
       <link rel="alternate" href="/atom.xml" title="Wise Courses" type="application/atom+xml">
     
+
+	
+	  <!-- 插入 Google 翻譯工具 -->
+  <script type="text/javascript">
+      function googleTranslateElementInit() {
+          new google.translate.TranslateElement({
+			pageLanguage: 'en',    // 頁面語言設置為簡體中文
+            includedLanguages: 'en,zh-CN,es,fr,de,it', // 支持的語言列表
+              layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+          }, 'google_translate_element');
+      }
+  </script>
+
+  <!-- Google 翻譯的 JS 库 -->
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  <style>
+#google_translate_element {
+    display: flex;               /* 啟用 Flexbox 佈局 */
+    justify-content: flex-start; /* 水平置中偏右 */
+    align-items: center;         /* 垂直居中 */
+    width: 100%;                 /* 設定寬度為 100% */
+    max-width: 500px;            /* 設定最大寬度 */
+    margin-left: 24%;            /* 使元素略微偏右 */
+}
+
+/* 設置 Google 翻譯選擇框的長條形樣式 */
+#google_translate_element select {
+    font-size: 50px;             /* 設置文字大小 */
+    padding: 50px 50px;          /* 設置內邊距，使按鈕更長 */
+    border-radius: 5px;          /* 設置圓角效果 */
+    min-width: 180px;            /* 設置最小寬度 */
+    background-color: #f0f0f0;   /* 設置背景顏色 */
+    border: 1px solid #ccc;      /* 設置邊框顏色 */
+}
+
+#google_translate_element .goog-te-menu-value {
+    font-size: 16px;             /* 設置選擇框內的文字大小 */
+    padding: 10px 20px;          /* 設置內邊距 */
+}
+</style>
+
 <meta name="generator" content="Hexo 7.2.0"></head>
 
 <body>
-
+	
 	<header class="header">
+	
 		<nav class="header__nav">
 			
 				<a href="/archives" class="header__link">Archive</a>
@@ -27,7 +71,10 @@
 		<h1 class="header__title"><a href="/">Wise Courses</a></h1>
 		<h2 class="header__subtitle">Course purchase, tool sales, software sales, game sales, membership,Support global languages</h2>
 	</header>
-
+	
+	<div id="google_translate_element"></div>
+	
+	
 	<main>
 		
 
