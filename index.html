@@ -184,6 +184,29 @@
             width: 50%;
             margin-top: 5px;
         }
+		
+/* 超連結按鈕樣式 */
+.button-link {
+    display: inline-block;
+    padding: 7px 10px;        /* 適中的內邊距 */
+    background-color: #4CAF50; /* 背景色 */
+    color: white;              /* 字體顏色設為白色 */
+    text-decoration: none;     /* 去除底線 */
+    border-radius: 5px;        /* 圓角效果 */
+    cursor: pointer;
+    text-align: center;        /* 文字對齊：居中 */
+    margin-top: 0px;          /* 上邊距 */
+    font-size: 14px;           /* 字型大小 */
+}
+
+/* 滑鼠懸停時的效果 */
+.button-link:hover {
+    background-color: #45a049; /* 滑鼠懸停時改變背景色 */
+    color: white;              /* 滑鼠懸停時字體顏色依然是白色 */
+}
+
+		
+
     </style>
 <meta name="generator" content="Hexo 7.2.0"></head>
 
@@ -206,13 +229,36 @@
 	
 	
 	
-		
 
+		    <a onclick="scrollToBottom()"class="button-link" style="color:white;">Go to the introduction column</a>
+<script>
+    function scrollToBottom() {
+   
+   
+	     const scrollHeight = document.body.scrollHeight; // 獲取整個頁面的高度
+      const viewportHeight = window.innerHeight; // 獲取瀏覽器視口的高度
+      const offset = 300; // 預留的 200 像素
+
+      // 計算滾動的距離
+      const scrollToPosition = scrollHeight - viewportHeight - offset;
+      
+      // 滾動到計算後的位置
+      window.scrollTo({ top: scrollToPosition, behavior: 'smooth' });
+	  
+
+	  
+	  
+    }
+  </script>
 
 
 		<h4 style="text-align: center;  "  > 
-			<a target="_blank" rel="noopener" href="https://wisecomputerit-github-io.translate.goog/?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp"> Google     Translate</a>  
+			<a target="_blank" rel="noopener" href="https://wisecomputerit-github-io.translate.goog/?_x_tr_sl=zh-TW&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp"> Google     Translate</a>  
 		</h4>
+
+
+
+		
 		
 		    <!-- 使用 wrapper div 来居中内容 -->
     <div class="wrapper">
@@ -233,20 +279,32 @@
 					
 					
 					
-					
                 </select>
 
                 <!-- 使用超链接代替按钮，点击时触发 confirmSelection() -->
                 <a href="javascript:void(0);" class="confirm-link" onclick="confirmSelection()">Certain</a>
+				
+				<br>
+				
+              <!--  
+			  <label for="fruits" style="font-size: 13px">Join Wise Upload Profile Sales -> </label>
+      
+                  <a target="_blank" rel="noopener" href="https://www.example.com" class="button-link" style="color:white;">Upload file</a>
+				
+				-->
             </form>
         </div>
     </div>
-		
-		
+	
+	
+		<!--  按鈕到底  代碼亮亮 -- -->
 		
 
 
 
+
+
+					
 	<main>
 		
 
@@ -653,7 +711,7 @@
 
 
 
-	<span class="different-posts">🌍  end  🌍</span>
+	<span class="different-posts">🌍  There are articles and products above.  🌍</span>
 
 
 	</main>
@@ -760,5 +818,5 @@
 
 
 </body>
-
+        
 </html>
