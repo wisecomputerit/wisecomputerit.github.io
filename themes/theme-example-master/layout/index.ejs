@@ -1,0 +1,46 @@
+<html>
+
+
+  <head>
+
+    <style>
+      body {
+        background-color: lightblue;
+      }
+      
+      h1 {
+        color: white;
+        text-align: center;
+      }
+      
+      p {
+        font-family: verdana;
+        font-size: 20px;
+      }
+      </style>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+      name="viewport"
+    />
+    <title>明智建站</title>
+  </head>
+  <body>
+    <h1>明智建站</h1>
+    <section class="posts">
+      <% page.posts.each(function (post) { %>
+      <article class="post">
+        <div class="post-title">
+          <a class="post-title-link" href="<%- url_for(post.path) %>"
+            ><%= post.title %></a
+          >
+        </div>
+        <div class="post-content"><%- post.content %></div>
+        <div class="post-meta">
+          <span class="post-time"><%- date(post.date, "YYYY-MM-DD") %></span>
+        </div>
+      </article>
+      <% }) %>
+    </section>
+  </body>
+</html>
