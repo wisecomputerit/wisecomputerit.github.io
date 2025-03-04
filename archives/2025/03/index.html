@@ -311,51 +311,46 @@
 
 					
 	<main>
-		
+		<h1>Archive</h1>
 
-<h1>Java</h1>
+
 
 
 
 <ul class="archive">
-		<li class="archive__year archive__expendable archive__expendable_disabled">
+	
+	
+		<li class="archive__year archive__expendable ">
+			<span>2025</span>
 			<ul>
-			
 				
-			
-				
-					
-					
-						<li class="archive__entry"><a href="/2023/07/07/3-0/Java/20230707/undefined/"></a></li>
-					
+					<li class="archive__month archive__expendable">
+						<span>March</span>
+						<ul>
+							
+								<li class="archive__entry"><a href="/2025/03/04/Clean-computer-cache/uncategorized/20250304/41691/"></a></li>
+							
+								<li class="archive__entry"><a href="/2025/03/04/GitHub-Library-Download/uncategorized/20250304/2/"></a></li>
+							
+						</ul>
+					</li>
 
 				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
 			</ul>
 		</li>
+		
+	
 </ul>
+
+<script>
+	const expandables = document.querySelectorAll('.archive__expendable')
+	for(let i = 0; i < expandables.length; i++) {
+		expandables[i].addEventListener('click', (e) => {
+			e.stopPropagation()
+			expandables[i].classList.toggle('archive__expendable_collapsed')
+		})
+	}
+</script>
 
 	</main>
 
