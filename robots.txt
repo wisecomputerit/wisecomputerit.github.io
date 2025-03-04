@@ -14,3 +14,4 @@ Sitemap: https://jiaquanpawnshop.github.io/sitemap.xml
 Sitemap: https://jiaquanpawnshop.github.io/baidusitemap.xml
 
 Sitemap: https://wisecomputerit.github.io/sitemap.xml
+Sitemap: https://wisecomputerit.github.io/baidusitemap.xml
