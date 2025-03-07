@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://wiseaccountingfirm.github.io/2025/03/08/Neural-network-biochip/uncategorized/20250308/15388/</loc>
+    
+    <lastmod>2025-03-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://wiseaccountingfirm.github.io/tags/index-1.html</loc>
+    
+    <lastmod>2025-03-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://wiseaccountingfirm.github.io/2025/03/06/iNaturalist/uncategorized/20250306/1/</loc>
     
     <lastmod>2025-03-06</lastmod>
@@ -155,15 +173,6 @@
   </url>
   
   <url>
-    <loc>https://wiseaccountingfirm.github.io/tags/index.html</loc>
-    
-    <lastmod>2024-05-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://wiseaccountingfirm.github.io/Hello/index.html</loc>
     
     <lastmod>2024-05-07</lastmod>
@@ -193,7 +202,7 @@
 
   <url>
     <loc>https://wiseaccountingfirm.github.io/</loc>
-    <lastmod>2025-03-06</lastmod>
+    <lastmod>2025-03-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -203,7 +212,7 @@
   
   <url>
     <loc>https://wiseaccountingfirm.github.io/categories/Java/</loc>
-    <lastmod>2025-03-06</lastmod>
+    <lastmod>2025-03-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
