@@ -13,3 +13,8 @@ Sitemap: https://jiaquanpawnshop.github.io/baidusitemap.xml
 
 Sitemap: https://wisecomputerit.github.io/sitemap.xml
 Sitemap: https://wisecomputerit.github.io/baidusitemap.xml
+
+Sitemap: https://mysteriouscity.github.io/sitemap.xml
+Sitemap: https://mysteriouscity.github.io/baidusitemap.xml
+
+
